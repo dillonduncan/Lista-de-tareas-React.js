@@ -40,4 +40,25 @@ body{
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
   }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
   
+  caption {
+    caption-side:top;
+    font-style: italic;
+    padding-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid goldenrod;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+    
