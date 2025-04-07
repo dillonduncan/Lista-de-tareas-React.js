@@ -9,6 +9,17 @@ body{
   max-width: 300px;
   max-height: 80px;
 }
+.cont-estado{
+  display: flex;
+  border: 1px solid #800000;
+  margin-top: 10px;
+  margin-bottom: -8px;
+  padding-left: 5px;
+  justify-content: space-between;
+  width: 25%;
+  border-radius: 5px;
+  padding: 3px;
+}
 .contenedor{
     display: inline-block;
     padding: 10px;
@@ -26,6 +37,10 @@ body{
 .contenedor-registro textarea{
     width: 300px;
 }
+.contenedor-registro label{
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
 .contenedor-registro button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -33,12 +48,14 @@ body{
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     transition: border-color 0.25s;
   }
   button:hover {
-    border-color: #646cff;
+    transition: 0.5s;
+    border-color: #000dff;
+    color: #000dff;
   }
   button:focus,
   button:focus-visible {
@@ -57,7 +74,7 @@ table {
   }
   
   th, td {
-    border: 1px solid rgb(139, 109, 30);
+    border: 1px solid #800000;
     padding: 8px;
     text-align: left;
     max-width: min-content;

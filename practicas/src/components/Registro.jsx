@@ -28,8 +28,10 @@ export default function Registro() {
         <p id='desT'>Descripcion de la tarea:</p>
         <textarea className='txtDescrp' maxLength={100} aria-label='Descripcion de la tarea' value={descrip} onChange={(e) => setDescrip(e.target.value)} name="desTask" id=""></textarea>
         <br />
-        <label htmlFor='checkEstado'>Estado</label>
-        <input aria-label='Estado de la tarea' id='checkEstado' type="checkbox" checked={estado} onChange={(e) => setEstado(e.target.checked)} />
+        <div className='cont-estado'>
+          <label htmlFor='checkEstado'>Estado</label>
+          <input aria-label='Estado de la tarea' id='checkEstado' type="checkbox" checked={estado} onChange={(e) => setEstado(e.target.checked)} />
+        </div>
         <br />
         <button onClick={handleClick} id='btnGuardar'>Guardar</button>
       </div>

@@ -22,7 +22,7 @@ export default function ListaTareas({ task }) {
                 <td>{item.name}</td>
                 <td>{item.description}</td>
                 <td>{item.state ? "Realizada" : "Pendiente"}</td>
-                <td><button className='btnEditar' >Editar</button> <button className='btnEliminar'>Eliminar</button></td>
+                <td><button className='btnEditar'>Editar</button> <button className='btnEliminar'>Eliminar</button></td>
               </tr>
             )
           }
