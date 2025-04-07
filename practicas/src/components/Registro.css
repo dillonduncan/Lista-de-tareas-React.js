@@ -5,11 +5,15 @@ body{
     display: flex;
     justify-content: center;
 }
+.txtDescrp{
+  max-width: 300px;
+  max-height: 80px;
+}
 .contenedor{
     display: inline-block;
     padding: 10px;
     margin-bottom: 10px; 
-    border: 1px solid red;
+    border: 1px solid #800000;
 }
 .contenedor-registro{
     display: inline-block;
@@ -53,9 +57,10 @@ table {
   }
   
   th, td {
-    border: 1px solid goldenrod;
+    border: 1px solid rgb(139, 109, 30);
     padding: 8px;
     text-align: left;
+    max-width: min-content;
   }
   
   th {
